@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HandwritingRecognition" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryVariant">@color/blue_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- Override Default Button Colors -->
+        <item name="colorButtonNormal">@color/blue_primary</item>
+        <item name="colorAccent">@color/blue_dark</item>
+        <item name="android:colorBackground">@android:color/white</item>
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+</resources>

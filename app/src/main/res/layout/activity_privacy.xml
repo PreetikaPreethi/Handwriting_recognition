@@ -1,0 +1,65 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    android:background="@android:color/white">
+
+    <!-- Back Button & Title -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="16dp">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_arrow_back"
+            android:contentDescription="Back"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy Policy"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+
+    <!-- Privacy Policy Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This app collects handwriting input to recognize text. We do not store or share your data without consent.\n\nData Usage: Your handwriting is processed locally or through Google ML Kit for recognition.\n\nPermissions: We request access to your camera for image-based text recognition and storage for saving recognized text."
+            android:textSize="16sp"
+            android:textColor="#666"
+            android:lineSpacingExtra="6sp"
+            android:gravity="start"/>
+    </ScrollView>
+
+    <!-- Accept & Continue Button -->
+    <Button
+        android:id="@+id/btnAccept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accept &amp; Continue"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:paddingVertical="12dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/black"/>
+</LinearLayout>

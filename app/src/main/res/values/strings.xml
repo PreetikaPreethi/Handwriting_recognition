@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HandwritingRecognition</string>
+    <string name="handyocr">HandyOCR</string>
+    <string name="transform_handwriting_into_digital_text">Transform Handwriting into Digital Text.</string>
+    <string name="open">Open Drawer</string>
+    <string name="close">Close Drawer</string>
+    <string-array name="color_options">
+        <item>Black</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+    </string-array>
+    <string-array name="issue_types">
+        <item>Bug</item>
+        <item>Feature Request</item>
+        <item>Other</item>
+    </string-array>
+</resources>
